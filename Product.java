@@ -19,12 +19,4 @@ public class Product
 
 
 }
-public class Company
-{
-	private ArrayList<Product> products;
 
-	public Company()
-	{
-		ArrayList<Product> products = new ArrayList<products>();
-	}
-}
