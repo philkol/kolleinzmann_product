@@ -1,15 +1,19 @@
 public class Product
 {
 	private String name;
+	private boolean onStock;
 	private float price;
 	private int id;
+
 
 	public Product(int id)
 	{
 		setName("Coca Cola");
+		setOnStock(true);
 		setPrice(10);
 		setId(id);
 	}
+
 
 	public void setName(String name)
 	{
@@ -17,6 +21,16 @@ public class Product
 	}
 
 	public String getName()
+	{
+		return name
+	}
+
+	public void setOnstock(boolean onStock)
+	{
+		this.onStock=onStock;
+	}
+
+	public boolean getOnstock()
 	{
 		return name;
 	}
